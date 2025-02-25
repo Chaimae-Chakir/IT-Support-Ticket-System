@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="53573068-48e6-4668-8f07-6b8134e4cd1e" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/BackendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/controller/CommentController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/controller/TicketController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/controller/UserController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/dto/AuditLogDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/dto/CommentDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/dto/TicketDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/dto/UserDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/enums/Category.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/enums/Priority.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/enums/Role.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/enums/Status.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/exception/EntityNotFoundException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/exception/ForbiddenActionException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/mapper/EntityMapper.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/model/AuditLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/model/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/repository/AuditLogRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/repository/CommentRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/repository/TicketRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/repository/UserRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/security/CustomUserDetails.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/security/CustomUserDetailsService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/service/CommentService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/service/TicketService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/service/impl/CommentServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/java/software/hahn/backend/service/impl/TicketServiceImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/resources/db_user_init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/main/resources/ticket_management_schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/java/software/hahn/backend/BackendApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/src/test/java/software/hahn/backend/TicketServiceImplTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend-0.0.1-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/backend-0.0.1-SNAPSHOT.jar.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/com/example/backend/mapper/EntityMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/db_user_init.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/BackendApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/config/SecurityConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/controller/CommentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/controller/TicketController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/dto/AuditLogDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/dto/CommentDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/dto/TicketDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/dto/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/enums/Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/enums/Priority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/enums/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/enums/Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/exception/EntityNotFoundException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/exception/ForbiddenActionException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/mapper/EntityMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/mapper/EntityMapperImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/model/AuditLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/model/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/model/User$UserBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/model/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/repository/AuditLogRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/repository/CommentRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/repository/TicketRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/security/CustomUserDetails.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/security/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/service/CommentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/service/TicketService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/service/impl/CommentServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/software/hahn/backend/service/impl/TicketServiceImpl.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/classes/ticket_management_schema.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/generated-sources/annotations/software/hahn/backend/mapper/EntityMapperImpl.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/surefire-reports/TEST-com.example.backend.BackendApplicationTests.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/surefire-reports/TEST-com.example.backend.TicketServiceImplTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/surefire-reports/com.example.backend.BackendApplicationTests.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/surefire-reports/com.example.backend.TicketServiceImplTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/test-classes/software/hahn/backend/BackendApplicationTests.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../backend/target/test-classes/software/hahn/backend/TicketServiceImplTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../captures/Capture1.PNG" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/FrontendApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/CreateTicketDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/HttpUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/LoginDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/MainFrame.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/SearchDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/TicketDetailsDialog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/TicketListPanel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/model/AuditLog.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/model/Comment.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/model/Ticket.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/software/hahn/frontend/client/model/User.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/software/hahn/frontend/FrontendApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/FrontendApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/CreateTicketDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/HttpUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/LoginDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/MainFrame.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/SearchDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/SearchDialog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/SearchDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/TicketDetailsDialog$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/TicketDetailsDialog$2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/TicketDetailsDialog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/TicketListPanel$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/TicketListPanel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/model/AuditLog.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/model/Comment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/model/Ticket$Category.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/model/Ticket$Priority.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/model/Ticket$Status.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/model/Ticket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/model/User$Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/software/hahn/frontend/client/model/User.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHomeTypeForPersistence" value="WRAPPER" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2tXWzyZqwhDIm56BR2aE9CvgNYJ" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.FrontendApplication.executor": "Run",
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="software.hahn.frontend.client.Main" />
+      <module name="frontend" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.example.frontend.client.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fdfe4dae3a2d-intellij.indexing.shared.core-IU-243.22562.218" />
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-IU-243.22562.218" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="53573068-48e6-4668-8f07-6b8134e4cd1e" name="Changes" comment="" />
+      <created>1740499165953</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1740499165953</updated>
+      <workItem from="1740499167118" duration="8105000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
