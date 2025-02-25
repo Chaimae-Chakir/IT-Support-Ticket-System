@@ -29,4 +29,4 @@ This project is a simple IT Support Ticket management application. It consists o
 - **Docker & Docker Compose**: For containerized deployment.
 - **Git**: For version control and submission.
 ## Project Structure
-[Capture1](captures/Capture1)
+../captures/Capture1.png
