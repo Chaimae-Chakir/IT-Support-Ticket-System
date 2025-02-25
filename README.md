@@ -28,3 +28,5 @@ This project is a simple IT Support Ticket management application. It consists o
 - **Maven 3.8+**: For dependency management and builds.
 - **Docker & Docker Compose**: For containerized deployment.
 - **Git**: For version control and submission.
+## Project Structure
+[Capture1](captures/Capture1)
