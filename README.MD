@@ -31,6 +31,7 @@ This project is a simple IT Support Ticket management application. It consists o
 
 ## Project Structure
 <img src="captures/Capture1.PNG">
+<img src="captures/Capture2.PNG">
 
 ## Installation and Usage
 
