@@ -1,5 +1,5 @@
-# IT Support Ticket System
 
+<<<<<<< HEAD
 This project is a simple IT Support Ticket management application. It consists of:
 
 - **Backend**: A Spring Boot application (Java 17) exposing a REST API with Swagger/OpenAPI.  
@@ -292,3 +292,5 @@ docker-compose up --build
     - Run `docker-compose up --build`.
     - Build and run the frontend JAR.
 2. Ensure the `README.md` instructions work as expected.
+=======
+>>>>>>> 3b89144fa40a12bb8fca45f481d81ebfaf6fdf9d
