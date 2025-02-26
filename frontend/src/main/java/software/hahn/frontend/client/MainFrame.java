@@ -37,7 +37,7 @@ public class MainFrame extends JFrame {
         try {
             System.out.println("Initializing UI for role: " + role);
             JMenuBar menuBar = new JMenuBar();
-            JMenu fileMenu = new JMenu("File");
+            JMenu fileMenu = new JMenu("Action");
 
             // Add Home button
             JMenuItem homeItem = new JMenuItem("Home");
@@ -101,62 +101,30 @@ public class MainFrame extends JFrame {
             JOptionPane.showMessageDialog(this, "UI Initialization Error: " + e.getMessage(), "Error", JOptionPane.ERROR_MESSAGE);
         }
     }
-    // method to show welcome screen
-    // private void showWelcomeScreen() {
-    //     mainPanel.removeAll();
-    //     JLabel userBanner = new JLabel("Logged in as: " + username + " (" + role + ")", SwingConstants.CENTER);
-    //     userBanner.setFont(new Font("Arial", Font.BOLD, 14));
-    //     mainPanel.add(userBanner, BorderLayout.NORTH);
-    //     mainPanel.add(new JLabel("Welcome to IT Support Ticket System", SwingConstants.CENTER), BorderLayout.CENTER);
-    //     mainPanel.revalidate();
-    //     mainPanel.repaint();
-    // }
 
     private void showWelcomeScreen() {
         mainPanel.removeAll();
-        mainPanel.setLayout(new BorderLayout());
+        mainPanel.setLayout(new BorderLayout()); // Use BorderLayout for better resizing
 
-        JLabel userBanner = new JLabel("Logged in as: " + username + " (" + role + ")", SwingConstants.CENTER);
-        userBanner.setFont(new Font("Arial", Font.BOLD, 14));
+        JLabel userBanner = new JLabel("Welcome " + username + " to IT Support Ticket System", SwingConstants.CENTER);
+        userBanner.setFont(new Font("Arial", Font.BOLD, 18));
         mainPanel.add(userBanner, BorderLayout.NORTH);
 
-        // Panel of shortcut buttons
         JPanel shortcuts = new JPanel(new GridBagLayout());
+        shortcuts.setPreferredSize(new Dimension(300, 200)); // Ensure panel is visible
+        shortcuts.setBorder(BorderFactory.createEmptyBorder(10, 10, 10, 10)); // Add padding
+
         GridBagConstraints gbc = new GridBagConstraints();
         gbc.gridx = 0;
         gbc.gridy = 0;
-        gbc.insets = new Insets(10, 10, 10, 10);
-
-        JButton createTicketBtn = new JButton("Create Ticket");
-        createTicketBtn.addActionListener(e -> showCreateTicketDialog());
-        shortcuts.add(createTicketBtn, gbc);
-
-        if (role == User.Role.EMPLOYEE) {
-            gbc.gridy++;
-            JButton myTicketsBtn = new JButton("My Tickets");
-            myTicketsBtn.addActionListener(e -> showTicketList(false));
-            shortcuts.add(myTicketsBtn, gbc);
-
-            gbc.gridy++;
-            JButton searchMyTicketsBtn = new JButton("Search My Tickets");
-            searchMyTicketsBtn.addActionListener(e -> showSearchDialog(false));
-            shortcuts.add(searchMyTicketsBtn, gbc);
-        } else if (role == User.Role.IT_SUPPORT) {
-            gbc.gridy++;
-            JButton allTicketsBtn = new JButton("All Tickets");
-            allTicketsBtn.addActionListener(e -> showTicketList(true));
-            shortcuts.add(allTicketsBtn, gbc);
-
-            gbc.gridy++;
-            JButton searchTicketsBtn = new JButton("Search Tickets");
-            searchTicketsBtn.addActionListener(e -> showSearchDialog(true));
-            shortcuts.add(searchTicketsBtn, gbc);
-        }
+        gbc.insets = new Insets(5, 5, 5, 5);
 
         mainPanel.add(shortcuts, BorderLayout.CENTER);
+
         mainPanel.revalidate();
         mainPanel.repaint();
     }
+
 
     private void showCreateTicketDialog() {
         CreateTicketDialog dialog = new CreateTicketDialog(this, username, password);
